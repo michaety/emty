@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    font-size: 6rem;
+    
+}
+header .reality {
+    text-align: center;
+    font-size: 2rem;
+    
+}
+ul {
+   list-style-type: none;
+   padding: 1rem;
+   border: solid pink 1rem;
+   float: left;
+   background-color: pink;
+   position: fixed;
+   z-index: 1;
+}
+nav {
+    float: left;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 2rem;
+    display: flex;
+
+}
+
+@media screen and (max-width:550px) {
+    header .reality {
+        z-index: 1;
+        font-size: 1rem;
+        margin-right: 3rem;
+        margin-left: 2rem;
+    }
+    header {
+        text-align: center;
+        position: fixed;
+        border: solid pink 0.2rem;
+        background-color: pink;
+        width: 100%;
+        z-index: 1;
+        padding-bottom: 1rem;
+        display: flex;
+    }
+    nav {
+        display: flex;
+        font-size: 0.8rem;
+        justify-content: left;
+        align-items: center;
+        margin-right: 100%;
+}
+ul {
+    float: right;
+    display: absolute;
+}
+}
+body {
+    background-size: cover;
+    background-image: url("../cloudy.jpg");
+}
+h2 {
+    text-align: center;
+    font-size: 3rem;
+}
+h3 {
+    text-align: center;
+}  
+.img {
+    display: flexbox;
+    padding: 1rem;
+    margin: 1rem;
+    position: relative; 
+    justify-content: center;
+    align-items: baseline;
+    flex-grow: 2;
+}
+#shop {
+    border: solid red 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+#music {
+    border: solid blue 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+#gallery {
+    border: solid yellow 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    
+}
